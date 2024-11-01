@@ -7,7 +7,7 @@ print(df.head(15))
 print()
 
 df['City'] = df['City'].fillna('Unknown')
-df['Salary'] = df['Salary'].fillna(0)
+# df['Salary'] = df['Salary'].fillna(0)
 
 print(df.head(15))
 
